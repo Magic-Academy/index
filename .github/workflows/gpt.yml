@@ -1,0 +1,13 @@
+name: Gpt
+
+on:
+  push:
+    branches:
+      - main
+
+  pull_request:
+    branches:
+      - main
+steps:
+  - name: ChatGPT Integration
+    uses: kxxt/chatgpt-action@v0.3
